@@ -3,16 +3,15 @@
 ## Learning objectives
 - know where to get more detailed information on the clusters
 - use ssh to logon to TACC
-- setup a bioiteam profile
 
 ## User Guides
 
 **The Stampede User Guide**: For complete up-to-date information, see the complete [Stampede User Guide](https://portal.tacc.utexas.edu/user-guides/stampede).
 
-## Using SSH to logon to TACC
+## Use SSH to logon to TACC
 
 ~~~ {.bash}
-ssh <username>@stampede.tacc.utexas.edu
+$ ssh <username>@stampede.tacc.utexas.edu
 ~~~
 
 You will be prompted to enter your password
