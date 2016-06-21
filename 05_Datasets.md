@@ -2,12 +2,12 @@
 
 ## *Cancer borealis* Transcriptomes to your work directory
 
-Navigate to your working direcotry then copy this folder from Rayna's "community" directory. 
+Navigate to your work directory then copy this folder from Rayna's "community" directory. 
 
 ~~~ {.bash}
-cdw
-cp -r /work/02189/rmharris/community/transcriptomes .
-ls -lht
+$ cdw
+$ cp -r /work/02189/rmharris/community/transcriptomes .
+$ ls -lht
 ~~~ 
 
 ~~~ {.output}
