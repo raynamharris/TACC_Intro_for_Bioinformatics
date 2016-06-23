@@ -14,13 +14,19 @@
 $ ssh <username>@stampede.tacc.utexas.edu
 ~~~
 
-You will be prompted to enter your password
+The very first time you do this from a particular computer, you will be asked if you are sure you want to login. Type `yes`. 
+
+~~~ {.output}
+The authenticity of host 'stampede.tacc.utexas.edu (129.114.62.11)' can't be established.
+ECDSA key fingerprint is SHA256:g8VAo69oa8wVL8LKKl3rojHpcH2eaMyoyGihXIuiaTU.
+Are you sure you want to continue connecting (yes/no)?
+~~~
+
+Then, you will be prompted to enter your password. You won't see anything when you type, so just trust that you are typing. The backspace key does not work here, so if you type incorrectly, you will have to hit enter and wait for the prompt to ask for a second attempt.
 
 ~~~ {.output}
 Password:
 ~~~
-
-Then you will be asked if you are okay logining in. Say yes. 
 
 Then, you will be greeted with a login screen. 
 

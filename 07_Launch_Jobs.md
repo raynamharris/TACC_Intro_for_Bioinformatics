@@ -11,22 +11,36 @@ Recall the last time you went to the dentist or the doctor. When you arrived, yo
 
 Its not a perfect analogy, but I think this helps conceptualize login and compute nodes. The login nodes are where you go to get all your paper work in order and settle the payment, but compute nodes are where the magic of bioinformatics or computing happen. In the same way that a doctor won't operate on you in the waiting room, don't do your hard core computing on the login nodes.  
 
-In order to use the computer nodes of a super computer like TACC, you must go through a  "Queue Manager" program. This program keeps track of what's running, what is in the queue, and how much processing power and time each of those jobs need. The "Queue Manager" program needs two things files from you:
+In order to use the computer nodes of a super computer like TACC, you must go through a  "Queue Manager" program. This program keeps track of what's running, what is in the queue, and how much processing power and time each of those jobs need. 
+
+The "Queue Manager" program needs two things files from you:
 
 1. a job submission script (.slurm)
 2. a commands file (.cmds)
 
-Your commands file will be referenced in the job submission script. 
+Let's explore in more detail the purpose and contents of these files.
 
-You tell the Queue Manager what you want done via a .slurm file - your job submission script. That specifies how many nodes you need, what allocation to use, the maximum run time of the job, etc. The Queue Manager doesn't really care what you're running, just how you want it run. It needs to pass info on what you're running off to the compute node - you do that with the line setenv CONTROL_FILE commands.
-The Queue Manager sends off the commands in the file commands to the compute nodes; so commands is really the first thing to start with.
+## Job Submission Script
+
+You tell the Queue Manager what you want done in a job submission script. All submission scripts that run on TACC need to have the file extension  `.slurm`. 
+
+This job submission script must specify:
+- the number of compute nodes needed
+- the allocation to be used
+- the maximum run time of the job
+- the commands to run
+
+Optional specifications include:
+- an standard output file
+- an standard error file
+- an email for automatic updates about the job
+- if the job should wait for another job to finish first
+- and other options
 
 ## Commands File (.cmds)
 
 In the Unix tutorial, we saw that we could put some commands inside a .sh bash script in order to execute them from the command line. For supercommuting, we put the commands inside a commands file that will be referenced in our job submission script. There are a handful of standard file extensions one can use. The .cmd extension is nice because it helps you see at a glance that this is a commands file.
 
-
-## Job Submission Script
-
+Your commands file will be referenced in the job submission script. 
 
 
