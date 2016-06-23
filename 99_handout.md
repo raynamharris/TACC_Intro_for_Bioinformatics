@@ -1,6 +1,6 @@
 ## Commands Handout
 
-Command | Explanation
+Stampede-Specific Commands | Explanation
 :---|:---
 `ssh <username>@stampede.tacc.utexas.edu` | **s**ecure **sh**ell to Stampede
 `sbatch <filename.slurm>` | submit a job script for execution
