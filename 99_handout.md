@@ -11,7 +11,7 @@ TACC-Specific Commands | Explanation
 `module spider` | lists all modules
 `module help` | lists options for the module program
 `module help <module name>` | lists options for a specified module
-`module spider <module name>` lists all versions of a particular module
+`module spider <module name>` | lists all versions of a particular module
 `module load <module name>` | loads the most recent versions of a module
 `module unload <module name>` | unloads a module
 `module swap <module1> <module2>` | swaps module2 for module1
