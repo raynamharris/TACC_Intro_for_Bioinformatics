@@ -1,10 +1,17 @@
 # Configuring Your Profile
 
 ## Learning objectives
+- know the resources provided by the BioITeam
 - setup a bioiteam profile
 - know how to view hidden files
 - know what's in a .profile
 
+
+## Helpful Resources from the BioITeam
+
+The mission of the [BioIteam](https://wikis.utexas.edu/display/bioiteam/Home) is to provide "one-stop" unified support for bioinformatics software tools, educational resources, implementation, and support. The BioITeam was initially focused on tools for next-generation sequencing (NGS) analysis but has expanded its expertise in recent years. The BioITeam is a group of users interested in pooling our efforts with others to reduce the time we spend implementing new software and databases and on training ourselves and others we work with.
+
+The general model is that TACC serve as the reference implementation for stable software releases so most of the "power computing" can be done at TACC, but in addition acknowledge that most of us use resources in addition to TACC, and often need tools, databases, or other resources not globally supported at TACC.
 
 ## Copy a preconfigured profile
 
@@ -46,7 +53,7 @@ PATH=$PATH:/work/01184/daras/bin
 PATH=$PATH:/work/01184/daras/bin/cutadapt-1.3/bin
 ~~~
 
-What this does is provide links to some useful files scripts
+What this does is provide links to some useful files scripts.
 
 Let's look at profile_ngs_course.bash
 
