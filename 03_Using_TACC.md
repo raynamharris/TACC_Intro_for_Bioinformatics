@@ -74,7 +74,7 @@ purpose | store code and executables | run jobs, store large files | run jobs, s
 quota | 5GB or 150K files | 1TB or 3M files | 8.5 PB
 backed up? | yes | no | no
 purged | no | no | yes
-`cd` shorcut | `cd` and `cdh` | `cdw` | `cds`
+`cd` shorcut | `cd` and `cdh` ` cd ~` | `cdw` | `cds`
 
 
 
