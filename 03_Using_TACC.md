@@ -62,9 +62,7 @@ The TACC HPC platforms have pre-defined, user-owned directories with distinct st
 
 The nomenclature $HOME, $WORK and $SCRATCH used represented the **enviornment variable** for these directories. The is because the full path to these directories includes both your group number and your username
 
-![PWD](figures/login_nodes.png)
-
-
+Let's compare and contrast the three directories
 
  | $HOME | $WORK | $SCRATCH
 :---|:---|:---|:---
@@ -75,6 +73,9 @@ quota | 5GB or 150K files | 1TB or 3M files | 8.5 PB
 backed up? | yes | no | no
 purged | no | no | yes
 
+Your terminal window gives you a lot of clues as to where you are in your file strucutre. Take a look at this figure to see see of the differences between the terminal window on with the working directory set to $HOME compared to $WORK.
+
+![PWD](figures/login_nodes.png)
 
 
 
