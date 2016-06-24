@@ -55,34 +55,16 @@ $ ls -lht data/STG/2016-05-24-JA16268/
 -r--rw-r-- 1 rmharris G-813760 696M Jun 24 00:01 GM_26_S_S32_L003_R1_001.fastq.gz
 -r--rw-r-- 1 rmharris G-813760 680M Jun 24 00:00 GM_25_S_S31_L003_R2_001.fastq.gz
 -r--rw-r-- 1 rmharris G-813760 606M Jun 24 00:00 GM_25_S_S31_L003_R1_001.fastq.gz
+~~~ 
 
 Let's break down the file name by looking at the first two sequences: 
 
 PD_11_S_S28_L003_R2_001.fastq.gz
 PD_11_S_S28_L003_R1_001.fastq.gz
 
-PD_11_: Cell type and cell ID
-S_S28: RNA from a *s*ingle neuron, now called RNA sample 28
-LOO3: Sequencing lane 3
-R1 or R2: Read 1 and Read 2
-001: an arbitrary addition?
-.fastq.gz : the file extension for a compressed sequence file
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-~~~ 
+- PD_11_: Cell type and cell ID
+- S_S28: RNA from a *s*ingle neuron, now called RNA sample 28
+- LOO3: Sequencing lane 3
+- R1 or R2: Read 1 and Read 2
+- 001: an arbitrary addition?
+- .fastq.gz : the file extension for a compressed sequence file
