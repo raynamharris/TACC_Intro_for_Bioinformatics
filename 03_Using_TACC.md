@@ -77,5 +77,10 @@ Your terminal window gives you a lot of clues as to where you are in your file s
 
 ![PWD](figures/login_nodes.png)
 
+### Exercise 1
+Use the `cd` shorcuts to navigate from $HOME to $SCRATH to $WORK then back $HOME.
+
+### Exercise 2
+Identify the full path to your partner's scratch directory. Navigate to your partner's scratch directory using that full path.
 
 
