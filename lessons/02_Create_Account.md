@@ -18,3 +18,6 @@ In the meantime, process to step 2.
 ## 3. Activate your TACC account
 1. Visit the [TACC User Portal](https://portal.tacc.utexas.edu) 
 
+## Proceed to the Next and Previous lessons
+**Next Lesson:** [03 Using TACC](03_Using_TACC.md)  
+**Previous Lesson:** [01 TACC Overview](01_TACC_Overview.md) 

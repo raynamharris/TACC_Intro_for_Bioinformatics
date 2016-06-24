@@ -45,4 +45,5 @@ In the Unix tutorial, we saw that we could put some commands inside a .sh bash s
 
 Your commands file will be referenced in the job submission script. 
 
-
+## Proceed to the Previous lessons
+**Previous Lesson:** [05 Motivating Datasets](05_Datasets.md)  

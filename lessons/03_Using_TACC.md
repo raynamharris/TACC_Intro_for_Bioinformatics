@@ -83,4 +83,6 @@ Use the `cd` shorcuts to navigate from $HOME to $SCRATH to $WORK then back $HOME
 ### Exercise 2
 Identify the full path to your partner's scratch directory. Navigate to your partner's scratch directory using that full path.
 
-
+## Proceed to the Next and Previous lessons
+**Next Lesson:** [04 Configure Profile](04_Configure_Profile.md)   
+**Previous Lesson:** [02 Create a TACC account](02_Create_Account.md)  

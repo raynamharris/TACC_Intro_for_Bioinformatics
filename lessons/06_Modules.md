@@ -54,3 +54,7 @@ tacc:~$
 ~~~
 
 If it load correctly, you are met with an empty prompt and now you're ready to starting using the program.
+
+## Proceed to the Next and Previous lessons
+**Next Lesson:** [07 Launch Jobs](07_Launch_Jobs.md)  
+**Previous Lesson:** [05 Motivating Datasets](05_Datasets.md)  

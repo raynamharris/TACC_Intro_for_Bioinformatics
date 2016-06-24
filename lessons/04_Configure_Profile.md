@@ -65,4 +65,6 @@ nano profile_ngs_course.bash
 Here, we are going to a storage system on Corral. Then, we use the nano program to open a new file. 
 
 
-
+## Proceed to the Next and Previous lessons
+**Next Lesson:** [05 Motivating Datasets](05_Datasets.md)  
+**Previous Lesson:** [03 Using TACC](03_Using_TACC.md)  

@@ -68,3 +68,7 @@ PD_11_S_S28_L003_R1_001.fastq.gz
 - R1 or R2: Read 1 and Read 2
 - 001: an arbitrary addition?
 - .fastq.gz : the file extension for a compressed sequence file
+
+## Proceed to the Next and Previous lessons
+**Next Lesson:** [06 Modules](06_Modules.md)  
+**Previous Lesson:** [04 Configure Profile](04_Configure_Profile.md)   

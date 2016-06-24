@@ -21,3 +21,5 @@ Read the [user guides](https://www.tacc.utexas.edu/user-services/user-guides) to
 
 Need help with a TACC-specific errors or need a specific tool installed on TACC? Submit a ticket to [TACC consulting](https://portal.tacc.utexas.edu).  
 
+## Proceed to the Next Lesson
+**Next Lesson:** [02 Create a TACC account](02_Create_Account.md)     
