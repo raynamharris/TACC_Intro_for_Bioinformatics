@@ -69,12 +69,11 @@ The nomenclature $HOME, $WORK and $SCRATCH used represented the **enviornment va
  | $HOME | $WORK | $SCRATCH
 :---|:---|:---|:---
 full path | `/home1/<group>/<user>` | `/work/<group>/<user>` | `/work/<group>/<user>`
-login node | yes | no | no
+`cd` shorcut | `cd`, `cdh`, and ` cd ~` | `cdw` | `cds`
 purpose | store code and executables | run jobs, store large files | run jobs, store large files
 quota | 5GB or 150K files | 1TB or 3M files | 8.5 PB
 backed up? | yes | no | no
 purged | no | no | yes
-`cd` shorcut | `cd` and `cdh` ` cd ~` | `cdw` | `cds`
 
 
 
