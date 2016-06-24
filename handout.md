@@ -6,7 +6,7 @@ TACC-Specific Commands | Explanation
 `ssh <username>@ls5.tacc.utexas.edu` | **s**ecure **sh**ell to Lonestar5
 `cdh`, `cd $HOME`, `cd`, and `cd ~` | **c**hange **d**irectory to **h**ome directory
 `cdw` and `cd $WORK`| **c**hange **d**irectory to **w**ork directory
-`cds` and `cd $SCRATCH` | **c**hange **d**irectory to **s**scratch directory
+`cds` and `cd $SCRATCH` | **c**hange **d**irectory to **s**cratch directory
 `module avil` | lists available modules
 `module spider` | lists all modules
 `module help` | lists options for the module program
