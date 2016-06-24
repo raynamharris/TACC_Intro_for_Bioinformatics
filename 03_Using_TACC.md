@@ -57,4 +57,24 @@ Tip 160   (See "module help tacc_tips" for features or how to disable)
 tacc:~$
 ~~~
 
-## 
+## $HOME, $WORK, and $SCRATCH directories
+The TACC HPC platforms have pre-defined, user-owned directories with distinct storage characteristics. Because these file systems are shared with other users, they are managed by either a quota limit, a purge policy (time-residency) limit, or a migration policy. The three major directories ($HOME, $WORK and $SCRATCH) are designed for parallel and high performance data access of large files from within applications. 
+
+The nomenclature $HOME, $WORK and $SCRATCH used represented the **enviornment variable** for these directories. The is because the full path to these directories includes both your group number and your username
+
+![PWD](figures/login_nodes.png)
+
+
+
+ | $HOME | $WORK | $SCRATCH
+:---|:---|:---|:---
+login node | yes | no | no
+purpose | store code and executables | run jobs, store large files | run jobs, store large files
+quota | 5GB or 150K files | 1TB or 3M files | 8.5 PB
+backed up? | yes | no | no
+purged | no | no | yes
+`cd` shorcut | `cd` `cdh` | `cdw` | `cds`
+
+
+
+

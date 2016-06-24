@@ -11,6 +11,8 @@ Recall the last time you went to the dentist or the doctor. When you arrived, yo
 
 Its not a perfect analogy, but I think this helps conceptualize login and compute nodes. The login nodes are where you go to get all your paper work in order and settle the payment, but compute nodes are where the magic of bioinformatics or computing happen. In the same way that a doctor won't operate on you in the waiting room, don't do your hard core computing on the login nodes.  
 
+![Login and Compute Nodes](figures/login_compute_nodes.png)
+
 In order to use the computer nodes of a super computer like TACC, you must go through a  "Queue Manager" program. This program keeps track of what's running, what is in the queue, and how much processing power and time each of those jobs need. 
 
 The "Queue Manager" program needs two things files from you:
