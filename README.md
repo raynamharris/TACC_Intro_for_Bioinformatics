@@ -17,7 +17,7 @@ It is almost impossible to analyze and visualize next-generation sequencing data
 7. [Launching Jobs](07_Launch_Jobs.md)
 
 ## Handout of Commands
-You will you a handful of bash commands over an over again. For your reference, we created [this handout of commonly used commands](99_handout.md).  
+You will you a handful of bash commands over an over again. For your reference, we created [this handout of commonly used commands](handout.md).  
 
 ## Additional Resources
 This lesson was inspired by other awesome lessons taught by my colleagues. The include by are not limited to:
