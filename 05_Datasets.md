@@ -1,6 +1,6 @@
 ## Motivating Dataset
 
-## *Cancer borealis* Transcriptomes 
+## *Cancer borealis* Transcriptomes and data
 
 Dave Schulz has provided us with *Cancer borealis* transciptomes to use for our training. Rayna has stored a copy of these in her work directory that you can copy over to your work directory. 
 
@@ -8,7 +8,8 @@ Dave Schulz has provided us with *Cancer borealis* transciptomes to use for our 
 
 ~~~ {.bash}
 $ cdw
-$ cp -r /work/02189/rmharris/community/transcriptomes .
+$ cp -r /work/02189/rmharris/IntMolModule/ .
+$ cd IntMolModule/references
 $ ls -lht
 ~~~ 
 
@@ -19,3 +20,12 @@ $ ls -lht
 
 - The Cborealis_ref.fa file is a full transcriptome. 
 - The SchulzD_Cb_CDS_CHR.fasta is a partial transcrpitome, made up of 88 candidate genes
+
+
+## Cancer borealis data
+
+~~~ {.bash}
+$ cdw
+$ cp -r /work/02189/rmharris/IntMolModule/references .
+$ ls -lht
+~~~ 
