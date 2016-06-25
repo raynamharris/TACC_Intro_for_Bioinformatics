@@ -41,7 +41,7 @@ Then, you will be greeted with a login screen.
 
 --------------------- Project balances for user rmharris ----------------------
 | Name           Avail SUs     Expires | Name           Avail SUs     Expires |
-| NeuroEthoEvoDevo      45309  2016-12-31 | AltReproTactics      24715  2017-03-31 | 
+| NeuroEthoEvoDevo   45309  2016-12-31 | AltReproTactics    24715  2017-03-31 | 
 | UT-2015-05-18       1173  2016-12-31 |                                      |
 ------------------------ Disk quotas for user rmharris ------------------------
 | Disk         Usage (GB)     Limit    %Used   File Usage       Limit   %Used |
