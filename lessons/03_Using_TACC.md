@@ -75,7 +75,7 @@ purged | no | no | yes
 
 Your terminal window gives you a lot of clues as to where you are in your file strucutre. Take a look at this figure to see see of the differences between the terminal window on with the working directory set to $HOME compared to $WORK.
 
-![PWD](/figures/login_nodes.png)
+![PWD](figures/login_nodes.png)
 
 ### Exercise 1
 Use the `cd` shorcuts to navigate from $HOME to $SCRATH to $WORK then back $HOME.
