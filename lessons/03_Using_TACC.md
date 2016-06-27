@@ -72,6 +72,7 @@ purpose | store code and executables | run jobs, store large files | run jobs, s
 quota | 5GB or 150K files | 1TB or 3M files | 8.5 PB
 backed up? | yes | no | no
 purged | no | no | yes
+accessible by all clusters? | no | yes | no
 
 Your terminal window gives you a lot of clues as to where you are in your file strucutre. Take a look at this figure to see see of the differences between the terminal window on with the working directory set to $HOME compared to $WORK.
 

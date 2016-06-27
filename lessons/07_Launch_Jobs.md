@@ -4,7 +4,6 @@
 - understand the difference between login and compute nodes
 - know that you need a job submission script and a commands file to submit jobs
 - understand the two ways to prepare the submission script - launcher.slurm and launcher creator.py
-- use both ways to launch jobs
 
 ## Login and Compute Nodes
 Recall the last time you went to the dentist or the doctor. When you arrived, you signed in, filled out a bunch of paper work about you and your insurance, and maybe paid a co-pay. Then you waited around and read a magazine or played on your phone until your name was called. Then you went into the procedure room where the doctor and nurses came and worked their magic. 
@@ -18,7 +17,7 @@ In order to use the computer nodes of a super computer like TACC, you must go th
 The "Queue Manager" program needs two things files from you:
 
 1. a job submission script (.slurm)
-2. a commands file (.cmds)
+2. a commands file (often with the extension.cmds)
 
 Let's explore in more detail the purpose and contents of these files.
 
@@ -39,11 +38,13 @@ Optional specifications include:
 - if the job should wait for another job to finish first
 - and other options
 
-## Commands File (.cmds)
+## Commands File 
 
-In the Unix tutorial, we saw that we could put some commands inside a .sh bash script in order to execute them from the command line. For supercommuting, we put the commands inside a commands file that will be referenced in our job submission script. There are a handful of standard file extensions one can use. The .cmd extension is nice because it helps you see at a glance that this is a commands file.
+For supercommuting, we put the commands inside a commands file that will be referenced in our job submission script. The command file may only contain one command per line
 
-Your commands file will be referenced in the job submission script. 
+There are a handful of standard file extensions one can use. Using a .cmd extension is nice because it helps you see at a glance that this is a commands file. 
+
+
 
 ## Proceed to the Previous lessons
-**Previous Lesson:** [05 Motivating Datasets](05_Datasets.md)  
+**Previous Lesson:** [06 Modules](06_Modules.md)  
