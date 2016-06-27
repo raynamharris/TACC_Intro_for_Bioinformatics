@@ -47,4 +47,5 @@ There are a handful of standard file extensions one can use. Using a .cmd extens
 
 
 ## Proceed to the Previous lessons
+**Next Lesson:** [08 My First Batch Job](08_First_Batch_Job.md) 
 **Previous Lesson:** [06 Modules](06_Modules.md)  
