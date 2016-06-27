@@ -16,6 +16,7 @@ TACC-Specific Commands | Explanation
 `module unload <module name>` | unloads a module
 `module swap <module1> <module2>` | swaps module2 for module1
 `sbatch <filename.slurm>` | submit a job script for execution
+`qstat` | 
 `scancel <jobid>` | cancel a pending or running job
 `squeue` | reports the state of all jobs 
 `squeue -u <userid>` | reports state of all user jobs
