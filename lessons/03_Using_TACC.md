@@ -30,7 +30,7 @@ Password:
 
 Then, you will be greeted with a login screen. 
 
-![PWD](figures/login4.stamped.png)
+![PWD](figures/login4.stampede.png)
 
 
 ## $HOME, $WORK, and $SCRATCH directories
