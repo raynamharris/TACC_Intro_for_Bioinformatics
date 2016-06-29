@@ -43,7 +43,8 @@ $ ls -l
 ~~~ {.output}
 lrwxrwxrwx 1 train317 G-815002 39 Jun 29 10:23 cutadapt -> /work/01063/abattenh/local/bin/cutadapt
 lrwxrwxrwx 1 train317 G-815002 52 Jun 29 10:23 launcher_creator.py -> /corral-repl/utexas/BioITeam/bin/launcher_creator.py
-lrwxrwxrwx 1 train317 G-815002 38 Jun 29 10:23 samstat -> /work/01063/abattenh/local/bin/samstat~~~
+lrwxrwxrwx 1 train317 G-815002 38 Jun 29 10:23 samstat -> /work/01063/abattenh/local/bin/samstat
+~~~
 
 
 What did we just do?
