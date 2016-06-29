@@ -27,6 +27,23 @@ launcher	wc_reads	wc_reads_better
 ***Note:** These same files and scripts can also be [here found on Github](https://github.com/raynamharris/DataForTACCCourse)
 
 
+## Getting the Scripts and Data - Alternative, if above doesn't work
+
+If that doesn't work because of some permissions, try the following. The steps are listed first, command line commands come later.
+1. Log off stampede with the command `exit`
+2. Download, unzip, and save to your desktop this "DataForTACCCourse-master" directory from this website: https://github.com/raynamharris/DataForTACCCourse.git
+3. Use `scp -r` to copy this directory to your work
+4. Log back into tacc
+5. cd into this new directory
+
+~~~ {.bash}
+$ exit
+$ cd Desktop/DataForTACCCourse-master
+$ scp -r DataForTACCCourse-master <username>@stampede.tacc.utexas.edu:<pathto$WORK> 
+$ ssh <username>@stampede.tacc.utexas.edu
+$ cd <pathto$WORK>/DataForTACCCourse-master
+~~~
+
 ## launcher
 This is pretty much verbatum the example launcher script given by tacc. I've changed it to add the allocation that will be used for the course. Otherwise, its stright out of the box.
 
