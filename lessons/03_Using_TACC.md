@@ -36,8 +36,6 @@ Then, you will be greeted with a login screen.
 ## $HOME, $WORK, and $SCRATCH directories
 The TACC HPC platforms have pre-defined, user-owned directories with distinct storage characteristics. Because these file systems are shared with other users, they are managed by either a quota limit, a purge policy (time-residency) limit, or a migration policy. The three major directories ($HOME, $WORK and $SCRATCH) are designed for parallel and high performance data access of large files from within applications. 
 
-![PWD](figures/stampede_shell.png)
-
 The nomenclature $HOME, $WORK and $SCRATCH used represented the **enviornment variable** for these directories. The is because the full path to these directories includes both your group number and your username
 
 Let's compare and contrast the three directories
@@ -52,6 +50,7 @@ backed up? | yes | no | no
 purged | no | no | yes
 accessible by all clusters? | no | yes | no
 
+![PWD](figures/stampede_shell.png)
 
 ### Exercise 1
 Use the `cd` shorcuts to navigate from $HOME to $SCRATH to $WORK then back $HOME.
