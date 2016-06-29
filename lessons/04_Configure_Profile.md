@@ -37,7 +37,14 @@ $ cd local/bin
 $ ln -s -f /corral-repl/utexas/BioITeam/bin/launcher_creator.py
 $ ln -s -f /work/01063/abattenh/local/bin/cutadapt
 $ ln -s -f /work/01063/abattenh/local/bin/samstat
+$ ls -l
 ~~~
+
+~~~ {.output}
+lrwxrwxrwx 1 train317 G-815002 39 Jun 29 10:23 cutadapt -> /work/01063/abattenh/local/bin/cutadapt
+lrwxrwxrwx 1 train317 G-815002 52 Jun 29 10:23 launcher_creator.py -> /corral-repl/utexas/BioITeam/bin/launcher_creator.py
+lrwxrwxrwx 1 train317 G-815002 38 Jun 29 10:23 samstat -> /work/01063/abattenh/local/bin/samstat~~~
+
 
 What did we just do?
 - With `mkdir -p local/bin` we created a hierarchy of directories (using the `-p` flag) to store some useful bioinforamtic programs.
