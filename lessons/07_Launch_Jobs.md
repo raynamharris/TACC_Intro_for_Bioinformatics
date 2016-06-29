@@ -3,7 +3,7 @@
 ## Learning Objectives
 - understand the difference between login and compute nodes
 - know that you need a job submission script and a commands file to submit jobs
-- understand the two ways to prepare the submission script - launcher.slurm and launcher creator.py
+- **FIXME MAYBE*** understand the two ways to prepare the submission script - launcher.slurm and launcher creator.py
 
 ## Login and Compute Nodes
 Recall the last time you went to the dentist or the doctor. When you arrived, you signed in, filled out a bunch of paper work about you and your insurance, and maybe paid a co-pay. Then you waited around and read a magazine or played on your phone until your name was called. Then you went into the procedure room where the doctor and nurses came and worked their magic. 
