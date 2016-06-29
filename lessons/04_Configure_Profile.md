@@ -64,6 +64,12 @@ nano profile_ngs_course.bash
 
 Here, we are going to a storage system on Corral. Then, we use the nano program to open a new file. 
 
+# New shell configuration
+
+A nice benefit from this is that now we have a more informative shell when we login. 
+
+![PWD](figures/login_nodes.png)
+
 
 ## Proceed to the Next and Previous lessons
 **Next Lesson:** [05 Motivating Datasets](05_Datasets.md)  
