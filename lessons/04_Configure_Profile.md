@@ -40,7 +40,7 @@ $ ln -s -f /work/01063/abattenh/local/bin/samstat
 ~~~
 
 What did we just do?
-- With `mkdir -p $HOME/local/bin` we created a hierarchy of directories (using the `-p` flag) to store some useful bioinforamtic programs.
+- With `mkdir -p local/bin` we created a hierarchy of directories (using the `-p` flag) to store some useful bioinforamtic programs.
 - The `ln -s` command creates a symbolic link, a shortcut the the linked file or directory. Here the link targets are programs we want to use later, allowing us to use them with out changing to the directory where they are located.
  
 
