@@ -16,60 +16,32 @@ The general model is that TACC serve as the reference implementation for stable 
 ## Copy a preconfigured profile
 
 ~~~ {.bash}
-$ cdh
-$ cp /corral-repl/utexas/BioITeam/scripts/rnaseq_profile_user ~/.profile
-$ chmod 600 .profile
-$ source .profile
+$ cd
+$ cp /work/01063/abattenh/seq/code/script/tacc/bashrc.corengs .bashrc
+$ chmod 600 .bashrc
+$ source .bashrc
 ~~~
 
 ~~~ {.output}
-#FIXME
-ADD output example
+stamp:~$
 ~~~
 
-What did we just do? Let's look at the .profile file
+Did you notice that our prompt changed from `login2.stampede(4)$` to `stamp:~$`? That is just one of the changes we made. If you use `cat .bashrc` you can see the whole script. You will notice that there are some aliases that have been added and use links to useful programs that are not install on TACC but have been kindly provided by a colleage Anna Battenhouse.
 
-## .profile
-
-In order to view invisible files in a directory, we must use the `-a` flag to view all files. 
+## add some programs in a folder called local/bin
 
 ~~~ {.bash}
-$ ls -a
+$ mkdir -p $HOME/local/bin
+$ cd $HOME/local/bin
+$ ln -s -f /corral-repl/utexas/BioITeam/bin/launcher_creator.py
+$ ln -s -f /work/01063/abattenh/local/bin/cutadapt
+$ ln -s -f /work/01063/abattenh/local/bin/samstat
 ~~~
 
-Now, let's take a look at our .profile file
-
-~~~ {.bash}
-$ nano .profile
-~~~ 
-
-~~~ {.output}
-#!/bin/bash
-
-# include common settings for the NGS course
-. /corral-repl/utexas/BioITeam/bin/profile_ngs_course.bash
-
-PATH=$PATH:/work/01184/daras/bin
-PATH=$PATH:/work/01184/daras/bin/cutadapt-1.3/bin
-~~~
-
-What this does is provide links to some useful files scripts.
-
-Let's look at profile_ngs_course.bash
-
-~~~ {.output}
-cd /corral-repl/utexas/BioITeam/bin/
-nano profile_ngs_course.bash
-~~~
-
-Here, we are going to a storage system on Corral. Then, we use the nano program to open a new file. 
-
-# New shell configuration
-
-A nice benefit from this is that now we have a more informative shell when we login. 
-
-![PWD](figures/login_nodes.png)
-
+What did we just do?
+- With `mkdir -p $HOME/local/bin` we created a hierarchy of directories (using the `-p` flag) to store some useful bioinforamtic programs.
+- The `ln -s` command creates a symbolic link, a shortcut the the linked file or directory. Here the link targets are programs we want to use later, allowing us to use them with out changing to the directory where they are located.
+ 
 
 ## Proceed to the Next and Previous lessons
 **Next Lesson:** [05 Motivating Datasets](05_Datasets.md)  
