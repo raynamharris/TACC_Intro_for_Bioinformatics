@@ -31,13 +31,13 @@ Did you notice that our prompt changed from `login2.stampede(4)$` to `stamp:~$`?
 ## add some programs in a folder called local/bin
 
 ~~~ {.bash}
-$ cd
-$ mkdir -p local/bin
-$ cd local/bin
-$ ln -s -f /corral-repl/utexas/BioITeam/bin/launcher_creator.py
-$ ln -s -f /work/01063/abattenh/local/bin/cutadapt
-$ ln -s -f /work/01063/abattenh/local/bin/samstat
-$ ls -l
+cd
+mkdir -p local/bin
+cd local/bin
+ln -s -f /corral-repl/utexas/BioITeam/bin/launcher_creator.py
+ln -s -f /work/01063/abattenh/local/bin/cutadapt
+ln -s -f /work/01063/abattenh/local/bin/samstat
+ls -l
 ~~~
 
 ~~~ {.output}
