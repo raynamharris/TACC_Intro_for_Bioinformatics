@@ -1,4 +1,4 @@
-# Into to TACC for Bioinformatics
+# Intro to TACC for Bioinformatics
 
 By Rayna Harris 
 June 21, 2016
